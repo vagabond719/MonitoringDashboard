@@ -1,0 +1,249 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1D61A6;
+    font: 11px Tahoma;
+}
+
+h1 {
+    color: #666;
+    font: bold 32px Times;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#container {
+    margin: 10px auto;
+    width: 700px;
+}
+
+.mGrid {
+    border: solid 1px #525252;
+    border-collapse: collapse;
+    color: #000000;
+    font-size: medium;
+    margin: 5px 0 10px 0;
+    width: 100%;
+}
+
+.mGrid td {
+    border: solid 1px #c1c1c1;
+    color: #000000;
+    font-size: small;
+    padding: 2px;
+}
+
+.mGrid th {
+    background: #808080 none repeat-x top;
+    background-position: top;
+    border-left: solid 1px #525252;
+    color: #fff;
+    font-size: small;
+    padding: 4px 2px;
+}
+
+.mGrid .row {
+    border: solid 1px #525252;
+    border-collapse: collapse;
+    font-size: small;
+    margin: 5px 0 10px 0;
+    width: 100%;
+}
+
+.mGrid .alt {
+    color: #999999;
+    font-size: small;
+}
+
+.mGrid .alt2 {
+    color: #999999;
+    font-size: small;
+}
+
+/*.mGrid .pgr {
+    background: #424242 url(grd_pgr.png) repeat-x top;
+    font-size: small;
+}*/
+
+.mGrid .pgr table {
+    font-size: small;
+    margin: 5px 0;
+}
+
+.mGrid .pgr td {
+    border-left: solid 1px #666;
+    border-width: 0;
+    color: #fff;
+    font-size: small;
+    font-weight: bold;
+    line-height: 12px;
+    padding: 0 6px;
+}
+
+.mGrid .pgr a {
+    color: #666;
+    font-size: small;
+    text-decoration: none;
+}
+
+.mGrid .pgr a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+/*.mGridempty {
+    background-color: #fff;
+    border: solid 0 #525252;
+    border-collapse: collapse;
+    font-weight: bold;
+    margin: 5px 0 10px 0;
+    width: 100%;
+}
+
+.mGridempty td {
+    border: solid 0 #c1c1c1;
+    padding: 2px;
+}*/
+
+/*.mGridempty th {
+    background: #424242 url(grd_head.png) repeat-x top;
+    border-left: solid 0 #525252;
+    color: #fff;
+    font-size: 0.9em;
+    padding: 4px 2px;
+}*/
+
+/*.mGridempty .row {
+    background-color: #fff;
+    border: solid 1px #525252;
+    border-collapse: collapse;
+    margin: 5px 0 10px 0;
+    width: 100%;
+}*/
+
+/*.mGridempty .alt { background: #fcfcfc url(grd_alt1.png) }*/
+
+/*.mGridempty .alt2 { background: #fcfcfc }
+
+.mGridempty .pgr { background: #424242 url(grd_pgr.png) repeat-x top; }
+
+.mGridempty .pgr table { margin: 5px 0; }
+
+.mGridempty .pgr td {
+    border-left: solid 1px #666;
+    border-width: 0;
+    color: #fff;
+    font-weight: bold;
+    line-height: 12px;
+    padding: 0 6px;
+}
+
+.mGridempty .pgr a {
+    color: #666;
+    text-decoration: none;
+}*/
+
+A:link {
+    color: #0000FF;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: small;
+    text-decoration: underline;
+}
+
+A:active {
+    color: #0000FF;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: small;
+    text-decoration: underline;
+}
+
+A:visited {
+    color: #0000FF;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: small;
+    text-decoration: underline;
+}
+
+A:hover {
+    color: #003399;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: small;
+    text-decoration: underline;
+}
+
+.newStyle1 { font-size: small; }
+
+.container {
+    padding: 0 0 0 0;
+    position: relative;
+}
+
+#sidebar {
+    background: #4D4D4D;
+    bottom: 0;
+    height: auto;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 226px;
+}
+
+#content {
+    height: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 226px;
+    width: 85%;
+}
+
+.objectstyle {
+    background: #4D4D4D;
+    color: white;
+    height: 100%;
+    vertical-align: top;
+    width: 100px;
+}
+
+.objectstyle2 {
+    background: #4D4D4D;
+    color: white;
+    height: 100%;
+    vertical-align: top;
+    width: 120px;
+}
+
+.objectstylewide { width: 216px; }
+
+.labelstyle {
+    background: #4D4D4D;
+    color: white;
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+    width: 111px;
+}
+
+/*.handle {
+    background-image: url(images/HandleGrip.png);
+    cursor: se-resize;
+    height: 360px;
+    overflow: hidden;
+    width: 196px;
+}*/
+
+.hidecolumn { display: none; }
+
+.auto-style1 { vertical-align: top; }
+
+.auto-style2 { height: 15px; }
+
+.auto-style3 { color: #FFFFFF; }
+
+.button {
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    Height: 30px;
+    Width: 100px;
+}
